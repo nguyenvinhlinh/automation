@@ -19,3 +19,5 @@ git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 curl -o .zshrc https://raw.githubusercontent.com/nguyenvinhlinh/zshrc/master/.zshrc;
 #Change default shell
 chsh -s /usr/bin/zsh;
+#Install Aria2c
+sudo yum install aria2 -y;
