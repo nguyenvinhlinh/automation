@@ -20,3 +20,4 @@ curl -o .zshrc https://raw.githubusercontent.com/nguyenvinhlinh/zshrc/master/.zs
 chsh -s /usr/bin/zsh;
 #Install Aria2c
 sudo yum install aria2 -y;
+sudo yum update -y;
