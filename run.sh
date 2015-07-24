@@ -1,4 +1,3 @@
-sudo yum install git -y;
 sudo yum install emacs -y;
 mkdir ~/Software;
 git clone git@github.com:retroj/conkeror.git ~/Software/Conkeror;
