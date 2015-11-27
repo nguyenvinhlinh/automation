@@ -1,4 +1,4 @@
-sudo yum install emacs -y;
+sudo dnf install emacs -y;
 mkdir ~/Software;
 git clone git@github.com:retroj/conkeror.git ~/Software/Conkeror;
 git clone git@github.com:ziahamza/webui-aria2.git ~/Software/webui-aria2;
@@ -11,13 +11,13 @@ cd ~/Software/Conkeror;
 git remote add origin-retroj git@github.com:retroj/conkeror.git;
 cd ~;
 # Install zsh and autojump
-sudo yum install zsh -y;
-sudo yum install autojump-zsh -y;
+sudo dnf install zsh -y;
+sudo dnf install autojump-zsh -y;
 #Install oh-my-zsh
 git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 curl -o .zshrc https://raw.githubusercontent.com/nguyenvinhlinh/zshrc/master/.zshrc;
 #Change default shell
 chsh -s /usr/bin/zsh;
 #Install Aria2c
-sudo yum install aria2 -y;
-sudo yum update -y;
+sudo dnf install aria2 -y;
+sudo dnf update -y;
