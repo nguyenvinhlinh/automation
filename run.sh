@@ -3,7 +3,7 @@ email_ssh=""
 passpharse_current_user=""
 
 ### Install software
-softwares=("git" "emacs" "zsh" "autojump-zsh" "aria2" "xclip" "expect");
+softwares=("git" "emacs" "zsh" "autojump-zsh" "aria2" "xclip" "expect" "mpv");
 for software  in "${softwares[@]}"
 do
     echo "Installing "$software;
