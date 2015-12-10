@@ -1,0 +1,6 @@
+set timeout 3;
+set password  [lindex $argv 0]
+spawn chsh -s /usr/bin/zsh;
+expect "Password: ";
+send "$password\r";
+interact
